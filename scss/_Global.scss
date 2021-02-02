@@ -1,0 +1,87 @@
+/*     >>>>>>Global<<<<<<        */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+$colorGris: #CFD8DC;
+$margenTop: 10px;
+$colorVerde: #42FF66;
+/*$colorGris: #37474F;*/
+
+$estacion: otoño;
+body {
+
+
+  @if $estacion == verano {
+    background-image: url("../Imagenes/verano.jpg");
+  } 
+
+  @else if $estacion == otoño {
+    background-image: url("../Imagenes/otoño1.jpg");
+  
+  } 
+
+  @else if $estacion== primavera{
+    background-image: url("../Imagenes/Primavera1.jpg");
+  } 
+  @else if $estacion== invierno {
+    background-image: url("../Imagenes/invierno1.jpg");
+  }
+
+ background-size: cover;
+   background-attachment: fixed;
+background-repeat: no-repeat;
+
+background-position: center center;
+    
+}
+
+
+
+section {
+  margin-top: $margenTop; 
+  margin-bottom: 10px;
+  margin-left: 30px;
+  margin-right: 30px;
+    background-color: $colorGris;
+    width: cover;
+   
+    min-height: 100vh;
+}
+
+
+    
+
+    
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2em;
+  }
+  p {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 0.8em;
+    letter-spacing: 3px;
+  }
+
+  .th1 {
+  text-align: center;
+  font-size: 30px;
+  text-shadow: 0 10px  15px $colorGris;
+  color: white;
+ }
+
+ .th2 {
+  text-align: center;
+  color: white;
+  text-shadow: 0  10px  15px $colorGris;
+   }
+ .WordSpacing {
+  word-spacing:  2pt;
+ }
+
+ 
+

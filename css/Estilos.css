@@ -1,0 +1,306 @@
+@charset "UTF-8";
+/*     >>>>>>Global<<<<<<        */
+* {
+  margin: 0;
+  padding: 0; }
+
+/*$colorGris: #37474F;*/
+body {
+  background-image: url("../Imagenes/otoño1.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center; }
+
+section {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 30px;
+  margin-right: 30px;
+  background-color: #CFD8DC;
+  width: cover;
+  min-height: 100vh; }
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.2em; }
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 0.8em;
+  letter-spacing: 3px; }
+
+.th1 {
+  text-align: center;
+  font-size: 30px;
+  text-shadow: 0 10px 15px #CFD8DC;
+  color: white; }
+
+.th2 {
+  text-align: center;
+  color: white;
+  text-shadow: 0 10px 15px #CFD8DC; }
+
+.WordSpacing {
+  word-spacing: 2pt; }
+
+/*    >>>>>Servicios<<<<<     */
+.Parrafo1Servicio {
+  font-size: 0.8em;
+  margin-left: 5px;
+  margin-right: 5px;
+  background-image: linear-gradient(to bottom, lightblue, #7FFFDA); }
+
+.Parrafo2Servicio {
+  background-image: linear-gradient(to top, lightblue, #7FFFDA);
+  font-size: 0.8em;
+  margin-right: 5px; }
+
+.Parrafo3Servicio {
+  background-image: linear-gradient(to bottom, lightblue, #7FFFDA);
+  font-size: 0.8em;
+  margin-right: 5px; }
+
+.h2caja {
+  background-color: lightblue;
+  font-size: 1.5em;
+  margin-left: 5px;
+  margin-right: 5px; }
+
+.h2cajaexc {
+  background-color: #7FFFDA;
+  font-size: 1.5em;
+  margin-right: 5px; }
+
+.h2cajaAlqequi {
+  background-color: lightblue;
+  font-size: 1.5em;
+  margin-right: 5px; }
+
+.escalar:hover {
+  transform: translate(300px, -100px) scale(1);
+  transition: 2s; }
+
+.escalar2:hover {
+  transform: scale(2);
+  transition: 2s; }
+
+.escalar3:hover {
+  transform: translatex(-200px) scale(2);
+  transition: 2s; }
+
+.cajaPrecios {
+  width: 160px;
+  margin-left: 10px;
+  background-color: lightblue;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+.cajaPrecios:hover {
+  border-radius: 15px;
+  background-color: #7FFFDA;
+  text-align: center;
+  transition: 1s; }
+
+.linkPrecios:link {
+  text-decoration: none;
+  font-family: 'Roboto';
+  margin-bottom: 20px; }
+
+.linkPrecios:hover {
+  color: #42FF66;
+  transition: 1s; }
+
+.linkPrecios:active {
+  color: yellow; }
+
+.btn {
+  margin-bottom: 15px; }
+
+.imgExcurciones {
+  width: 200px;
+  height: 135px;
+  box-shadow: 0px 5px 15px #42FF66;
+  border-radius: 10px;
+  margin: 7px; }
+
+.imgalojamiento {
+  width: 350px;
+  height: 240px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 15px #42FF66;
+  margin: 7px; }
+
+/*      >>>>>Header<<<<<    */
+.logo2 {
+  border-radius: 10px;
+  width: 100%;
+  height: 100%; }
+
+.imgredes {
+  border-radius: 10px;
+  width: 35px;
+  height: 35px;
+  padding-bottom: 5px; }
+
+.nav {
+  background-image: url("../Imagenes/fondo_atardecerarriba.jpg");
+  z-index: 1;
+  height: cover;
+  width: 100%; }
+
+.nav-link {
+  margin-right: 1.5rem;
+  margin-left: 1.5rem; }
+
+.navbar-nav {
+  background-color: #006666; }
+
+.dropdown-menu {
+  background-color: #006666; }
+
+.dropdown-item {
+  color: white; }
+
+/*    >>>>>Footer<<<<<    */
+.footer {
+  background-image: url("../Imagenes/fondo_atardecerabajo.jpg");
+  color: #c6ffb9;
+  height: cover;
+  white: 100%;
+  margin-top: 10px;
+  margin-bottom: 0; }
+
+.mapa {
+  width: auto;
+  height: auto;
+  margin-top: 10px; }
+
+iframe {
+  border-radius: 10px; }
+
+/*    >>>>>>Galeria<<<<<<*/
+.carousel-inner {
+  width: 100%;
+  height: 100%;
+  box-shadow: 10px 0px 35px #42FF66;
+  border-radius: 10px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  z-index: 0; }
+
+/*     >>>>>Index<<<<<      */
+.fondoParrafo {
+  background-color: #CFD8DC; }
+
+.parrafo {
+  border: solid none;
+  font-size: 18px;
+  margin-left: 10px; }
+
+.Negritap {
+  font-size: 22px;
+  box-shadow: 0 10px 15px #42FF66;
+  border-radius: 10px; }
+
+.imagen {
+  border: solid none;
+  padding: 20px;
+  background-color: #42FF66; }
+
+.imagen__tamaño {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  box-shadow: 0 10px 15px #CFD8DC; }
+
+.Tituloh1 {
+  text-align: center;
+  font-size: 30px;
+  text-shadow: 0 10px 35px #42FF66; }
+
+.Tituloh2 {
+  text-align: center;
+  color: white;
+  text-shadow: 0 10px 15px #42FF66; }
+
+/*Mensaje colapsado "Montaña Verde" Index*/
+.btn {
+  margin-top: 10px;
+  background-color: #42FF66; }
+
+.card {
+  background-color: lightblue; }
+
+/*       >>>>>Precios<<<<<          */
+tr {
+  background-color: #CFD8DC; }
+
+th {
+  font-size: 24px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: solid 1px;
+  text-align: center; }
+
+td {
+  color: black;
+  font-size: 18px;
+  border: solid 1px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 0.8em;
+  letter-spacing: 3px;
+  text-align: center; }
+
+ul {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+  list-style-type: none;
+  word-spacing: 50px; }
+
+@media (max-width: 640px) {
+  table {
+    white: 100%; }
+  table tr {
+    display: flex;
+    flex-direction: column;
+    border: solid 1px gray;
+    border-collapse: collapse; }
+  table th {
+    display: none;
+    border: none; }
+  table td {
+    font-weight: bold;
+    font-size: .7rem;
+    text-align: center;
+    border: none; }
+  table td[data-titulo]::before {
+    content: attr(data-titulo);
+    display: block;
+    width: 100%;
+    color: red; } }
+
+.form-check {
+  margin-left: 12px;
+  margin-top: 10px; }
+
+section {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 30px;
+  margin-right: 30px;
+  background-color: #CFD8DC;
+  width: cover;
+  height: 100%;
+  min-height: 100vh; }
+
+.row {
+  margin-bottom: 1.5em; }
