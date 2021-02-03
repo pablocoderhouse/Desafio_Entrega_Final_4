@@ -1,29 +1,11 @@
 /*     >>>>>Index<<<<<      */
 
-$colorGris: #CFD8DC;
+$colorGris: #728b97de;
 $colorVerde: #42FF66;
 
-$estacion: verano;
-.fondoParrafo {    
 
-	@if $estacion == verano {
-		background-color: $colorGris;
-	}	
-
-	@else if $estacion == otoño {
-		background-color: yellow;	
-
-	} 
-
-	@else if $estacion== primavera{
-		background-color: orange;
-	}	
-	@else if $estacion== invierno {
-		background-color: white;
-	}
-	 
 	
-}
+
 
 .parrafo {
 		border: solid none;  
@@ -75,7 +57,7 @@ $estacion: verano;
 
 
 
-/*Mensaje colapsado "Montaña Verde" Index*/
+
 
 .btn {
   margin-top: 10px;

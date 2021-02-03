@@ -4,9 +4,8 @@
   margin: 0;
   padding: 0; }
 
-/*$colorGris: #37474F;*/
 body {
-  background-image: url("../Imagenes/otoño1.jpg");
+  background-image: url("../Imagenes/verano.jpg");
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -17,8 +16,9 @@ section {
   margin-bottom: 10px;
   margin-left: 30px;
   margin-right: 30px;
-  background-color: #CFD8DC;
+  background-color: #c0c5c8d9;
   width: cover;
+  height: 100%;
   min-height: 100vh; }
 
 h1 {
@@ -35,48 +35,55 @@ p {
 .th1 {
   text-align: center;
   font-size: 30px;
-  text-shadow: 0 10px 15px #CFD8DC;
+  text-shadow: 0 10px 15px #c0c5c8d9;
   color: white; }
 
 .th2 {
   text-align: center;
   color: white;
-  text-shadow: 0 10px 15px #CFD8DC; }
+  text-shadow: 0 10px 15px #c0c5c8d9; }
 
 .WordSpacing {
   word-spacing: 2pt; }
 
+@media (max-width: 640px) {
+  body {
+    background-image: none;
+    background-color: #0f513296; }
+  section {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 0;
+    margin-right: 0;
+    background-color: #c0c5c8d9;
+    width: 100%;
+    height: 100%; } }
+
 /*    >>>>>Servicios<<<<<     */
 .Parrafo1Servicio {
-  font-size: 0.8em;
   margin-left: 5px;
   margin-right: 5px;
   background-image: linear-gradient(to bottom, lightblue, #7FFFDA); }
 
 .Parrafo2Servicio {
   background-image: linear-gradient(to top, lightblue, #7FFFDA);
-  font-size: 0.8em;
   margin-right: 5px; }
 
 .Parrafo3Servicio {
   background-image: linear-gradient(to bottom, lightblue, #7FFFDA);
-  font-size: 0.8em;
   margin-right: 5px; }
 
 .h2caja {
   background-color: lightblue;
-  font-size: 1.5em;
   margin-left: 5px;
   margin-right: 5px; }
 
 .h2cajaexc {
   background-color: #7FFFDA;
-  font-size: 1.5em;
   margin-right: 5px; }
 
 .h2cajaAlqequi {
   background-color: lightblue;
-  font-size: 1.5em;
   margin-right: 5px; }
 
 .escalar:hover {
@@ -150,6 +157,7 @@ p {
   background-image: url("../Imagenes/fondo_atardecerarriba.jpg");
   z-index: 1;
   height: cover;
+  height: 200px;
   width: 100%; }
 
 .nav-link {
@@ -175,9 +183,10 @@ p {
   margin-bottom: 0; }
 
 .mapa {
-  width: auto;
-  height: auto;
   margin-top: 10px; }
+
+.col-lg-3 {
+  text-align: center; }
 
 iframe {
   border-radius: 10px; }
@@ -193,9 +202,6 @@ iframe {
   z-index: 0; }
 
 /*     >>>>>Index<<<<<      */
-.fondoParrafo {
-  background-color: #CFD8DC; }
-
 .parrafo {
   border: solid none;
   font-size: 18px;
@@ -215,7 +221,7 @@ iframe {
   width: 100%;
   height: 100%;
   border-radius: 10px;
-  box-shadow: 0 10px 15px #CFD8DC; }
+  box-shadow: 0 10px 15px #728b97de; }
 
 .Tituloh1 {
   text-align: center;
@@ -227,7 +233,6 @@ iframe {
   color: white;
   text-shadow: 0 10px 15px #42FF66; }
 
-/*Mensaje colapsado "Montaña Verde" Index*/
 .btn {
   margin-top: 10px;
   background-color: #42FF66; }
@@ -291,16 +296,6 @@ ul {
 .form-check {
   margin-left: 12px;
   margin-top: 10px; }
-
-section {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-left: 30px;
-  margin-right: 30px;
-  background-color: #CFD8DC;
-  width: cover;
-  height: 100%;
-  min-height: 100vh; }
 
 .row {
   margin-bottom: 1.5em; }
