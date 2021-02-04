@@ -153,6 +153,13 @@ p {
   height: 35px;
   padding-bottom: 5px; }
 
+.redes {
+  margin-top: 20px;
+  margin-right: 10px; }
+
+.navbar-toggler {
+  background-color: #006666d6; }
+
 .nav {
   background-image: url("../Imagenes/fondo_atardecerarriba.jpg");
   z-index: 1;
@@ -165,13 +172,20 @@ p {
   margin-left: 1.5rem; }
 
 .navbar-nav {
-  background-color: #006666; }
+  background-color: #006666d6; }
 
 .dropdown-menu {
-  background-color: #006666; }
+  background-color: #006666d6; }
 
 .dropdown-item {
   color: white; }
+
+ul {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+  list-style-type: none;
+  word-spacing: 50px; }
 
 /*    >>>>>Footer<<<<<    */
 .footer {
@@ -273,7 +287,8 @@ ul {
 
 @media (max-width: 640px) {
   table {
-    white: 100%; }
+    white: 100%;
+    border-collapse: colapse; }
   table tr {
     display: flex;
     flex-direction: column;
