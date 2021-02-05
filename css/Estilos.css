@@ -237,23 +237,6 @@ iframe {
   border-radius: 10px;
   box-shadow: 0 10px 15px #728b97de; }
 
-.Tituloh1 {
-  text-align: center;
-  font-size: 30px;
-  text-shadow: 0 10px 35px #42FF66; }
-
-.Tituloh2 {
-  text-align: center;
-  color: white;
-  text-shadow: 0 10px 15px #42FF66; }
-
-.btn {
-  margin-top: 10px;
-  background-color: #42FF66; }
-
-.card {
-  background-color: lightblue; }
-
 /*       >>>>>Precios<<<<<          */
 tr {
   background-color: #CFD8DC; }
