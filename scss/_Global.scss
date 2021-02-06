@@ -14,19 +14,19 @@ body {
 
 
   @if $estacion == verano {
-    background-image: url("../Imagenes/verano.jpg");
+    background-image: url("../imagenes/verano.jpg");
   } 
 
   @else if $estacion == otoño {
-    background-image: url("../Imagenes/otoño1.jpg");
+    background-image: url("../imagenes/otoño1.jpg");
   
   } 
 
   @else if $estacion== primavera{
-    background-image: url("../Imagenes/Primavera1.jpg");
+    background-image: url("../imagenes/Primavera1.jpg");
   } 
   @else if $estacion== invierno {
-    background-image: url("../Imagenes/invierno1.jpg");
+    background-image: url("../imagenes/invierno1.jpg");
   }
 
  background-size: cover;
