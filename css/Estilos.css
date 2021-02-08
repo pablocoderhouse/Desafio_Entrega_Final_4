@@ -211,7 +211,8 @@ iframe {
   height: 100%;
   box-shadow: 10px 0px 35px #42FF66;
   border-radius: 10px;
-  align-items: center; }
+  align-items: center; 
+  z-index: 0;}
 
 .d-block {
   width: cover;
